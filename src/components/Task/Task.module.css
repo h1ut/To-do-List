@@ -1,19 +1,35 @@
 .box_task {
     background-color: white;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-style: sans-serif;
+}
+.box_task1 {
+    background-color: rgb(7, 227, 235);
+    display: flex;
+    align-items: center;
+    color: #fff;
 }
 
 .box_task_done{
-text-decoration: line-through;
-opacity: 0.5;
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 
 .cross {
     margin-right: 24px;
     margin-left: auto;
     background-color: white;
-    size: 16px;
+    size: 18px;
+    border: none;
+}
+.cross1 {
+    margin-right: 24px;
+    margin-left: auto;
+    background-color: rgb(7, 227, 235);
+    size: 18px;
+    border: none;
 }
 
 .img {
@@ -24,4 +40,14 @@ display: block;
 .check {
     margin: 0 16px 0px 24px;
     accent-color: #7749F8;
+}
+.important {
+    background-color: #fff;
+    border: none;
+    transform: rotate(180deg);
+}
+.important1 {
+    background-color: rgb(7, 227, 235);
+    border: none;
+    transform: rotate(180deg);
 }
